@@ -1,411 +1,411 @@
-import MetroStations from "./enums/metro-station-enum"
+import MetroStationEnum from "./enums/metro-station-enum"
 
 const MetroInfo = { 
-    [MetroStations.MetroCenterRD]: {
+    [MetroStationEnum.MetroCenterRD]: {
         code: 'A01',
         name: 'Metro Center (RD)'
     },
-    [MetroStations.FarragutNorth]: {
+    [MetroStationEnum.FarragutNorth]: {
         code: 'A02',
         name: 'Farragut North'
     },
-    [MetroStations.DupontCircle]: {
+    [MetroStationEnum.DupontCircle]: {
         code: 'A03',
         name: 'Dupont Circle'
     },
-    [MetroStations.WoodleyParkZooAdamsMorgan]: {
+    [MetroStationEnum.WoodleyParkZooAdamsMorgan]: {
         code: 'A04',
         name: 'Woodley Park-Zoo/Adams Morgan'
     },
-    [MetroStations.ClevelandPark]: {
+    [MetroStationEnum.ClevelandPark]: {
         code: 'A05',
         name: 'Cleveland Park'
     },
-    [MetroStations.VanNessUDC]: {
+    [MetroStationEnum.VanNessUDC]: {
         code: 'A06',
         name: 'Van Ness-UDC'
     },
-    [MetroStations.TenleytownAU]: {
+    [MetroStationEnum.TenleytownAU]: {
         code: 'A07',
         name: 'Tenleytown-AU'
     },
-    [MetroStations.FriendshipHeights]: {
+    [MetroStationEnum.FriendshipHeights]: {
         code: 'A08',
         name: 'Friendship Heights'
     },
-    [MetroStations.Bethesda]: {
+    [MetroStationEnum.Bethesda]: {
         code: 'A09',
         name: 'Bethesda'
     },
-    [MetroStations.MedicalCenter]: {
+    [MetroStationEnum.MedicalCenter]: {
         code: 'A10',
         name: 'Medical Center'
     },
-    [MetroStations.GrosvenorStrathmore]: {
+    [MetroStationEnum.GrosvenorStrathmore]: {
         code: 'A11',
         name: 'Grosvenor-Strathmore'
     },
-    [MetroStations.NorthBethesda]: {
+    [MetroStationEnum.NorthBethesda]: {
         code: 'A12',
         name: 'North Bethesda'
     },
-    [MetroStations.Twinbrook]: {
+    [MetroStationEnum.Twinbrook]: {
         code: 'A13',
         name: 'Twinbrook'
     },
-    [MetroStations.Rockville]: {
+    [MetroStationEnum.Rockville]: {
         code: 'A14',
         name: 'Rockville'
     },
-    [MetroStations.ShadyGrove]: {
+    [MetroStationEnum.ShadyGrove]: {
         code: 'A15',
         name: 'Shady Grove'
     },
-    [MetroStations.GalleryPlChinatownRD]: {
+    [MetroStationEnum.GalleryPlChinatownRD]: {
         code: 'B01',
         name: 'Gallery Pl-Chinatown (RD)'
     },
-    [MetroStations.JudiciarySquare]: {
+    [MetroStationEnum.JudiciarySquare]: {
         code: 'B02',
         name: 'Judiciary Square'
     },
-    [MetroStations.UnionStation]: {
+    [MetroStationEnum.UnionStation]: {
         code: 'B03',
         name: 'Union Station'
     },
-    [MetroStations.RhodeIslandAveBrentwood]: {
+    [MetroStationEnum.RhodeIslandAveBrentwood]: {
         code: 'B04',
         name: 'Rhode Island Ave-Brentwood'
     },
-    [MetroStations.BrooklandCUA]: {
+    [MetroStationEnum.BrooklandCUA]: {
         code: 'B05',
         name: 'Brookland-CUA'
     },
-    [MetroStations.FortTottenRD]: {
+    [MetroStationEnum.FortTottenRD]: {
         code: 'B06',
         name: 'Fort Totten (RD)'
     },
-    [MetroStations.Takoma]: {
+    [MetroStationEnum.Takoma]: {
         code: 'B07',
         name: 'Takoma'
     },
-    [MetroStations.SilverSpring]: {
+    [MetroStationEnum.SilverSpring]: {
         code: 'B08',
         name: 'Silver Spring'
     },
-    [MetroStations.ForestGlen]: {
+    [MetroStationEnum.ForestGlen]: {
         code: 'B09',
         name: 'Forest Glen'
     },
-    [MetroStations.Wheaton]: {
+    [MetroStationEnum.Wheaton]: {
         code: 'B10',
         name: 'Wheaton'
     },
-    [MetroStations.Glenmont]: {
+    [MetroStationEnum.Glenmont]: {
         code: 'B11',
         name: 'Glenmont'
     },
-    [MetroStations.NoMaGallaudetU]: {
+    [MetroStationEnum.NoMaGallaudetU]: {
         code: 'B35',
         name: 'NoMa-Gallaudet U'
     },
-    [MetroStations.MetroCenterBLORSV]: {
+    [MetroStationEnum.MetroCenterBLORSV]: {
         code: 'C01',
         name: 'Metro Center (BL/OR/SV)'
     },
-    [MetroStations.McPhersonSquare]: {
+    [MetroStationEnum.McPhersonSquare]: {
         code: 'C02',
         name: 'McPherson Square'
     },
-    [MetroStations.FarragutWest]: {
+    [MetroStationEnum.FarragutWest]: {
         code: 'C03',
         name: 'Farragut West'
     },
-    [MetroStations.FoggyBottomGWU]: {
+    [MetroStationEnum.FoggyBottomGWU]: {
         code: 'C04',
         name: 'Foggy Bottom-GWU'
     },
-    [MetroStations.Rosslyn]: {
+    [MetroStationEnum.Rosslyn]: {
         code: 'C05',
         name: 'Rosslyn'
     },
-    [MetroStations.ArlingtonCemetery]: {
+    [MetroStationEnum.ArlingtonCemetery]: {
         code: 'C06',
         name: 'Arlington Cemetery'
     },
-    [MetroStations.Pentagon]: {
+    [MetroStationEnum.Pentagon]: {
         code: 'C07',
         name: 'Pentagon'
     },
-    [MetroStations.PentagonCity]: {
+    [MetroStationEnum.PentagonCity]: {
         code: 'C08',
         name: 'Pentagon City'
     },
-    [MetroStations.CrystalCity]: {
+    [MetroStationEnum.CrystalCity]: {
         code: 'C09',
         name: 'Crystal City'
     },
-    [MetroStations.RonaldReaganWashingtonNationalAirport]: {
+    [MetroStationEnum.RonaldReaganWashingtonNationalAirport]: {
         code: 'C10',
         name: 'Ronald Reagan Washington National Airport'
     },
-    [MetroStations.PotomacYard]: {
+    [MetroStationEnum.PotomacYard]: {
         code: 'C11',
         name: 'Potomac Yard'
     },
-    [MetroStations.BraddockRoad]: {
+    [MetroStationEnum.BraddockRoad]: {
         code: 'C12',
         name: 'Braddock Road'
     },
-    [MetroStations.KingStOldTown]: {
+    [MetroStationEnum.KingStOldTown]: {
         code: 'C13',
         name: 'King St-Old Town'
     },
-    [MetroStations.EisenhowerAvenue]: {
+    [MetroStationEnum.EisenhowerAvenue]: {
         code: 'C14',
         name: 'Eisenhower Avenue'
     },
-    [MetroStations.Huntington]: {
+    [MetroStationEnum.Huntington]: {
         code: 'C15',
         name: 'Huntington'
     },
-    [MetroStations.FederalTriangle]: {
+    [MetroStationEnum.FederalTriangle]: {
         code: 'D01',
         name: 'Federal Triangle'
     },
-    [MetroStations.Smithsonian]: {
+    [MetroStationEnum.Smithsonian]: {
         code: 'D02',
         name: 'Smithsonian'
     },
-    [MetroStations.LEnfantPlazaBLORSV]: {
+    [MetroStationEnum.LEnfantPlazaBLORSV]: {
         code: 'D03',
         name: 'L\'Enfant Plaza (BL/OR/SV)'
     },
-    [MetroStations.FederalCenterSW]: {
+    [MetroStationEnum.FederalCenterSW]: {
         code: 'D04',
         name: 'Federal Center SW'
     },
-    [MetroStations.CapitolSouth]: {
+    [MetroStationEnum.CapitolSouth]: {
         code: 'D05',
         name: 'Capitol South'
     },
-    [MetroStations.EasternMarket]: {
+    [MetroStationEnum.EasternMarket]: {
         code: 'D06',
         name: 'Eastern Market'
     },
-    [MetroStations.PotomacAve]: {
+    [MetroStationEnum.PotomacAve]: {
         code: 'D07',
         name: 'Potomac Ave'
     },
-    [MetroStations.StadiumArmory]: {
+    [MetroStationEnum.StadiumArmory]: {
         code: 'D08',
         name: 'Stadium-Armory'
     },
-    [MetroStations.MinnesotaAve]: {
+    [MetroStationEnum.MinnesotaAve]: {
         code: 'D09',
         name: 'Minnesota Ave'
     },
-    [MetroStations.Deanwood]: {
+    [MetroStationEnum.Deanwood]: {
         code: 'D10',
         name: 'Deanwood'
     },
-    [MetroStations.Cheverly]: {
+    [MetroStationEnum.Cheverly]: {
         code: 'D11',
         name: 'Cheverly'
     },
-    [MetroStations.Landover]: {
+    [MetroStationEnum.Landover]: {
         code: 'D12',
         name: 'Landover'
     },
-    [MetroStations.NewCarrollton]: {
+    [MetroStationEnum.NewCarrollton]: {
         code: 'D13',
         name: 'New Carrollton'
     },
-    [MetroStations.MtVernonSq7thStConventionCenter]: {
+    [MetroStationEnum.MtVernonSq7thStConventionCenter]: {
         code: 'E01',
         name: 'Mt Vernon Sq 7th St-Convention Center'
     },
-    [MetroStations.ShawHowardU]: {
+    [MetroStationEnum.ShawHowardU]: {
         code: 'E02',
         name: 'Shaw-Howard U'
     },
-    [MetroStations.UStreetAfricanAmerCivilWarMemorialCardozo]: {
+    [MetroStationEnum.UStreetAfricanAmerCivilWarMemorialCardozo]: {
         code: 'E03',
         name: 'U Street/African-Amer Civil War Memorial/Cardozo'
     },
-    [MetroStations.ColumbiaHeights]: {
+    [MetroStationEnum.ColumbiaHeights]: {
         code: 'E04',
         name: 'Columbia Heights'
     },
-    [MetroStations.GeorgiaAvePetworth]: {
+    [MetroStationEnum.GeorgiaAvePetworth]: {
         code: 'E05',
         name: 'Georgia Ave-Petworth'
     },
-    [MetroStations.FortTottenGRYL]: {
+    [MetroStationEnum.FortTottenGRYL]: {
         code: 'E06',
         name: 'Fort Totten (GR/YL)'
     },
-    [MetroStations.WestHyattsville]: {
+    [MetroStationEnum.WestHyattsville]: {
         code: 'E07',
         name: 'West Hyattsville'
     },
-    [MetroStations.HyattsvilleCrossing]: {
+    [MetroStationEnum.HyattsvilleCrossing]: {
         code: 'E08',
         name: 'Hyattsville Crossing'
     },
-    [MetroStations.CollegeParkUofMd]: {
+    [MetroStationEnum.CollegeParkUofMd]: {
         code: 'E09',
         name: 'College Park-U of Md'
     },
-    [MetroStations.Greenbelt]: {
+    [MetroStationEnum.Greenbelt]: {
         code: 'E10',
         name: 'Greenbelt'
     },
-    [MetroStations.GalleryPlChinatownGRYL]: {
+    [MetroStationEnum.GalleryPlChinatownGRYL]: {
         code: 'F01',
         name: 'Gallery Pl-Chinatown (GR/YL)'
     },
-    [MetroStations.ArchivesNavyMemorialPennQuarter]: {
+    [MetroStationEnum.ArchivesNavyMemorialPennQuarter]: {
         code: 'F02',
         name: 'Archives-Navy Memorial-Penn Quarter'
     },
-    [MetroStations.LEnfantPlazaGRYL]: {
+    [MetroStationEnum.LEnfantPlazaGRYL]: {
         code: 'F03',
         name: 'L\'Enfant Plaza'
     },
-    [MetroStations.Waterfront]: {
+    [MetroStationEnum.Waterfront]: {
         code: 'F04',
         name: 'Waterfront'
     },
-    [MetroStations.NavyYardBallpark]: {
+    [MetroStationEnum.NavyYardBallpark]: {
         code: 'F05',
         name: 'Navy Yard-Ballpark'
     },
-    [MetroStations.Anacostia]: {
+    [MetroStationEnum.Anacostia]: {
         code: 'F06',
         name: 'Anacostia'
     },
-    [MetroStations.CongressHeights]: {
+    [MetroStationEnum.CongressHeights]: {
         code: 'F07',
         name: 'Congress Heights'
     },
-    [MetroStations.SouthernAvenue]: {
+    [MetroStationEnum.SouthernAvenue]: {
         code: 'F08',
         name: 'Southern Avenue'
     },
-    [MetroStations.NaylorRoad]: {
+    [MetroStationEnum.NaylorRoad]: {
         code: 'F09',
         name: 'Naylor Road'
     },
-    [MetroStations.Suitland]: {
+    [MetroStationEnum.Suitland]: {
         code: 'F10',
         name: 'Suitland'
     },
-    [MetroStations.BranchAve]: {
+    [MetroStationEnum.BranchAve]: {
         code: 'F11',
         name: 'Branch Ave'
     },
-    [MetroStations.BenningRoad]: {
+    [MetroStationEnum.BenningRoad]: {
         code: 'G01',
         name: 'Benning Road'
     },
-    [MetroStations.CapitolHeights]: {
+    [MetroStationEnum.CapitolHeights]: {
         code: 'G02',
         name: 'Capitol Heights'
     },
-    [MetroStations.AddisonRoadSeatPleasant]: {
+    [MetroStationEnum.AddisonRoadSeatPleasant]: {
         code: 'G03',
         name: 'Addison Road-Seat Pleasant'
     },
-    [MetroStations.MorganBoulevard]: {
+    [MetroStationEnum.MorganBoulevard]: {
         code: 'G04',
         name: 'Morgan Boulevard'
     },
-    [MetroStations.DowntownLargo]: {
+    [MetroStationEnum.DowntownLargo]: {
         code: 'G05',
         name: 'Downtown Largo'
     },
-    [MetroStations.VanDornStreet]: {
+    [MetroStationEnum.VanDornStreet]: {
         code: 'J02',
         name: 'Van Dorn Street'
     },
-    [MetroStations.FranconiaSpringfield]: {
+    [MetroStationEnum.FranconiaSpringfield]: {
         code: 'J03',
         name: 'Franconia-Springfield'
     },
-    [MetroStations.CourtHouse]: {
+    [MetroStationEnum.CourtHouse]: {
         code: 'K01',
         name: 'Court House'
     },
-    [MetroStations.Clarendon]: {
+    [MetroStationEnum.Clarendon]: {
         code: 'K02',
         name: 'Clarendon'
     },
-    [MetroStations.VirginiaSquareGMU]: {
+    [MetroStationEnum.VirginiaSquareGMU]: {
         code: 'K03',
         name: 'Virginia Square-GMU'
     },
-    [MetroStations.BallstonMU]: {
+    [MetroStationEnum.BallstonMU]: {
         code: 'K04',
         name: 'Ballston-MU'
     },
-    [MetroStations.EastFallsChurch]: {
+    [MetroStationEnum.EastFallsChurch]: {
         code: 'K05',
         name: 'East Falls Church'
     },
-    [MetroStations.WestFallsChurch]: {
+    [MetroStationEnum.WestFallsChurch]: {
         code: 'K06',
         name: 'West Falls Church'
     },
-    [MetroStations.DunnLoringMerrifield]: {
+    [MetroStationEnum.DunnLoringMerrifield]: {
         code: 'K07',
         name: 'Dunn Loring-Merrifield'
     },
-    [MetroStations.ViennaFairfaxGMU]: {
+    [MetroStationEnum.ViennaFairfaxGMU]: {
         code: 'K08',
         name: 'Vienna/Fairfax-GMU'
     },
-    [MetroStations.McLean]: {
+    [MetroStationEnum.McLean]: {
         code: 'N01',
         name: 'McLean'
     },
-    [MetroStations.Tysons]: {
+    [MetroStationEnum.Tysons]: {
         code: 'N02',
         name: 'Tysons'
     },
-    [MetroStations.Greensboro]: {
+    [MetroStationEnum.Greensboro]: {
         code: 'N03',
         name: 'Greensboro'
     },
-    [MetroStations.SpringHill]: {
+    [MetroStationEnum.SpringHill]: {
         code: 'N04',
         name: 'Spring Hill'
     },
-    [MetroStations.WiehleRestonEast]: {
+    [MetroStationEnum.WiehleRestonEast]: {
         code: 'N06',
         name: 'Wiehle-Reston East'
     },
-    [MetroStations.RestonTownCenter]: {
+    [MetroStationEnum.RestonTownCenter]: {
         code: 'N07',
         name: 'Reston Town Center'
     },
-    [MetroStations.Herndon]: {
+    [MetroStationEnum.Herndon]: {
         code: 'N08',
         name: 'Herndon'
     },
-    [MetroStations.InnovationCenter]: {
+    [MetroStationEnum.InnovationCenter]: {
         code: 'N09',
         name: 'Innovation Center'
     },
-    [MetroStations.WashingtonDullesInternationalAirport]: {
+    [MetroStationEnum.WashingtonDullesInternationalAirport]: {
         code: 'N10',
         name: 'Washington Dulles International Airport'
     },
-    [MetroStations.LoudounGateway]: {
+    [MetroStationEnum.LoudounGateway]: {
         code: 'N11',
         name: 'Loudoun Gateway'
     },
-    [MetroStations.Ashburn]: {
+    [MetroStationEnum.Ashburn]: {
         code: 'N12',
         name: 'Ashburn'
     }

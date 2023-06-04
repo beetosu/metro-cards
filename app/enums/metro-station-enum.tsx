@@ -1,4 +1,4 @@
-enum MetroStations {
+enum MetroStationEnum {
     MetroCenterRD,
     FarragutNorth,
     DupontCircle,
@@ -103,4 +103,4 @@ enum MetroStations {
     Ashburn,
 }
 
-export default MetroStations;
+export default MetroStationEnum;
