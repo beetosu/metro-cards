@@ -1,0 +1,36 @@
+.metro_card {
+    background-color: #eee;
+    border-radius: .25rem;
+    width: 15rem;
+    padding: 1rem;
+}
+
+.station_name {
+    text-align: center;
+}
+
+.line_list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.line {
+    border-radius: 100%;
+    font-weight: bold;
+    padding: .35rem;
+}
+
+.info_columns {
+    display: flex;
+    flex-direction: column;
+    height: 8rem;
+    justify-content: space-around;
+}
+
+.next_train {
+    background-color: #fafafa;
+    border-radius: .25rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 .25rem;
+}

@@ -1,0 +1,30 @@
+main {
+    padding: 3rem;
+}
+
+.rd_line {
+    background-color: #bf0d3e;
+    color: #fff;
+}
+
+.or_line {
+    background-color: #ed8b00;
+}
+
+.bl_line {
+    background-color: #009cde;
+    color: #fff;
+}
+
+.gr_line {
+    background-color: #00b140;
+    color: #fff;
+}
+
+.yl_line {
+    background-color: #ffd100;
+}
+
+.sv_line {
+    background-color: #919d9d;
+}

@@ -4,6 +4,8 @@ import styles from './page.module.css'
 
 export default function Home() {
   return (
-    <MetroCard metroEnum={MetroStationEnum.BallstonMU} />
+    <main className={styles.card_list}>
+      <MetroCard metroEnum={MetroStationEnum.LEnfantPlazaBLORSV} />
+    </main>
   )
 }
