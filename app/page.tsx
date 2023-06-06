@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <main className={styles.card_list}>
       <MetroCard metroEnum={MetroStationEnum.LEnfantPlazaBLORSV} hasAlerts={true} />
+      <MetroCard metroEnum={MetroStationEnum.CollegeParkUofMd} hasAlerts={false} />
     </main>
   )
 }
