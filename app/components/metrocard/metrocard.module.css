@@ -14,23 +14,22 @@
     justify-content: space-around;
 }
 
-.line {
-    border-radius: 100%;
-    font-weight: bold;
-    padding: .35rem;
+.info_column_list {
+    display: grid;
+    gap: 1rem;
 }
 
-.info_columns {
-    display: flex;
-    flex-direction: column;
-    height: 8rem;
-    justify-content: space-around;
-}
-
-.next_train {
+.info_column {
     background-color: #fafafa;
     border-radius: .25rem;
     display: flex;
     justify-content: space-between;
-    padding: 0 .25rem;
+    padding: 0 .5rem;
+}
+
+.alerts_found {
+    align-items: center;
+    background-color: #e77;
+    flex-direction: column;
+    justify-content: center;
 }

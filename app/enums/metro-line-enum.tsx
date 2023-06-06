@@ -1,4 +1,4 @@
-enum MetroLines {
+enum MetroLineEnum {
     Silver = "SV",
     Red = "RD",
     Blue = "BL",
@@ -7,4 +7,4 @@ enum MetroLines {
     Yellow = "YL"
 }
 
-export default MetroLines;
+export default MetroLineEnum;
