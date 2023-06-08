@@ -34,12 +34,23 @@ export default function Home() {
     .then((j: PredictionApiResponse) => {
       setStationTimes(j.Trains);
     });
-  }
+  };
 
+  // Get the times on page load
   useEffect(() => {
     getStationTimes();
-  }, [])
-  setInterval(getStationTimes, 45000);
+  }, []);
+
+  // After loading, get the page times every 45 seconds
+  useEffect(() => {
+    const interval = setInterval(() => {
+      getStationTimes();
+    }, 45000);
+
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
 
   return (
     <main className={styles.card_list}>
